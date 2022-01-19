@@ -1,11 +1,14 @@
 def interface():
         print("My Program")
         print("Options:")
+        print("1 - HDL")
         print("9 - Quit")
         choice = input("Enter your choice: ")
         while choice:
             if choice=='9':
                 return
+            elif choice=='1':
+                HDL_driver()
             choice = input("Enter your choice: ")
 
 def accept_input(test_name):
