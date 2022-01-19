@@ -63,7 +63,8 @@ def TC_driver():
     TC_val = accept_input("Total Cholesterol")
     result_output("Total Cholesterol", TC_val, check_total_cholesterol(TC_val))
 
-interface()
+if __name__ == "__main__":
+    interface()
 
 
     
