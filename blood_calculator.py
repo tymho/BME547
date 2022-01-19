@@ -20,5 +20,8 @@ def check_HDL(HDL_val):
     else:
         return "Low"
 
-    
+def HDL_driver():
+    check_HDL(accept_input("HDL"))
+
+
     
